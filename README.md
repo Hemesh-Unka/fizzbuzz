@@ -1,9 +1,12 @@
-# Collaborative FizzBuzz Exercise with @TomJamesDuffy
+# Collaborative FizzBuzz Exercise
 
-Short exercise to practice test driven development
-
-## Getting started
+Short exercise to practice test driven development with [TomJamesDuffy](https://github.com/TomJamesDuffy)
 
 ## Running tests
 
-`test_command` (e.g. `rspec`)
+Once inside the parent directory, to run the tests:
+
+```
+$ cd fizzbuzz
+$ rspec
+```
