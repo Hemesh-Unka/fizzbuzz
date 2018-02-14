@@ -1,4 +1,4 @@
-require "fizzbuzz.rb"
+require "fizzbuzz"
 
 describe "fizzbuzz" do
   it "check if divides by 3" do
