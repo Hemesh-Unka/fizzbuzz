@@ -1,11 +1,6 @@
 def fizzbuzz(number)
-  if number % 3 == 0 && number % 5 == 0
-    'fizzbuzz'
-  elsif number % 3 == 0
-    'fizz'
-  elsif number % 5 == 0
-    'buzz'
-  else
-    number
-  end
+  output = ''
+  output += 'fizz' if (number % 3).zero?
+  output += 'buzz' if (number % 5).zero?
+  output.empty? ? number : output
 end
